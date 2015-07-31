@@ -1,0 +1,25 @@
+{
+"name": "PAF-KIET LMS APP",
+"license": {
+    "name": "Apache 2.0",
+    "link": "http://www.apache.org/licenses/LICENSE-2.0"
+},
+"credits": [
+{
+    "fullname": "Airf Hussain Soomro",
+    "contribution": "Deputy Director MIS"
+},
+{
+    "fullname": "Najam Munir",
+    "contribution": "Manager MIS"
+},
+{
+    "fullname": "Muhammad Zaid Khan",
+    "contribution": "Application/UI Developer"
+},
+{
+    "fullname": "Khadija Majid",
+    "contribution": "Web Master"
+}
+]
+}
