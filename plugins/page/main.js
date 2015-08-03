@@ -1,10 +1,10 @@
 var templates = [
     "root/externallib/text!root/plugins/page/view.html",
-    "root/externallib/text!root/plugins/page/dialog.html",
-	"root/externallib/text!root/plugins/page/test_page.html"
+    "root/externallib/text!root/plugins/page/dialog.html"
+	//"root/externallib/text!root/plugins/page/test_page.html"
 ];
 
-define(templates, function (viewTpl, dialogTpl, testpageTpl) {
+define(templates, function (viewTpl, dialogTpl /*testpageTpl*/) {
     var plugin = {
         settings: {
             name: "page",
@@ -95,10 +95,10 @@ define(templates, function (viewTpl, dialogTpl, testpageTpl) {
             },
             "dialog": {
                 html: dialogTpl
-            },
-			"": {
+            }
+			/*"test_page": {
 				html: test_pageTpl	
-			}
+			}*/
         }
 
     };
